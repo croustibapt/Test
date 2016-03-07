@@ -1,0 +1,25 @@
+{
+  "name": "Test",
+  "version": "0.1.0",
+  "summary": "A short description of Test.",
+  "description": "",
+  "homepage": "https://github.com/<GITHUB_USERNAME>/Test",
+  "license": "MIT",
+  "authors": {
+    "Baptiste LE GUELVOUIT": "baptiste.leguelvouit@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/<GITHUB_USERNAME>/Test.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "7.0"
+  },
+  "requires_arc": true,
+  "source_files": "Pod/Classes/**/*",
+  "resource_bundles": {
+    "Test": [
+      "Pod/Assets/*.png"
+    ]
+  }
+}
